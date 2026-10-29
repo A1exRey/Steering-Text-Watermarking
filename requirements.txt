@@ -1,0 +1,11 @@
+# GPU experiments. The original generation environment was not locked.
+# See docs/REPRODUCIBILITY.md before interpreting this as a historical lockfile.
+-r requirements/analysis.txt
+torch==2.10.0
+transformers==5.15.0
+datasets==4.8.5
+accelerate==1.10.1
+sentencepiece==0.2.0
+protobuf==5.29.6
+tqdm==4.67.1
+nltk==3.9.4
